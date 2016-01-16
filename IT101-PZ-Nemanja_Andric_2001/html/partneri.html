@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <html>
+        <head>
+            <title>Saradnici</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width">
+            <link type="text/css" rel="stylesheet" href="../css/stil.css">
+            <style>
+                a:link {color:#ffffff;text-decoration:none;}
+                a:visited {color:#ffffff;text-decoration:none;}
+                a:hover {color: #ffffff;; text-decoration:none; background-color: rgba(228, 228, 228, 0); border: 1px solid rgba(129, 129, 129, 0); border-radius: 5px; padding: 2px;  
+                         a:active {color:#ffffff;text-decoration:none;}
+                </style>
+                <script>
+                    function prikazi(id)
+                    {
+                        document.getElementById(id).style.visibility = "visible";
+                    }
+                    function sakrij(id)
+                    {
+                        document.getElementById(id).style.visibility = "hidden";
+                    }
+                </script>
+            </head>
+
+            <body id="body">
+
+                <div id="heder">
+                    <font color="#ffffff"><h1 align="center" id="naslov">Andric LTD</h1></font>
+                </div>
+
+                <div id="div1"><h3><a href="index.html">Naslovna strana</a></h3></div>
+
+                <div id="div6">
+                    <div id="slike">
+                        <div id="slika1">
+                            <a href="http://www.ubuntu.com"><img class="slike" src="../slike/ubuntu.png" alt="ubuntu" onmouseover="prikazi('div7')" onmouseout="sakrij('div7')"></a>
+                        </div>
+
+                        <div id="slika2">
+                            <a href="http://www.vmware.com"><img class="slike" src="../slike/vmware.png" alt="vmware" onmouseover="prikazi('div10')" onmouseout="sakrij('div10')"></a>
+                        </div>
+
+                        <div id="slika3">
+                            <a href="http://www.archlinux.org"><img class="slike" src="../slike/arch.png" alt="arch" onmouseover="prikazi('div8')" onmouseout="sakrij('div8')"></a>
+                        </div>
+                        <div id="slika4">
+                            <a href="http://www.citrix.com"><img class="slike" src="../slike/citrix.png" alt="citrix" onmouseover="prikazi('div9')" onmouseout="sakrij('div9')"></a>
+                        </div>
+
+                        <div id="slika5">
+                            <a href="http://www.virtualbox.org"><img class="slike" src="../slike/virtualbox.png" alt="virtualbox" onmouseover="prikazi('div11')" onmouseout="sakrij('div11')"></a>
+                        </div>
+
+                        <div id="slika6">
+                            <a href="https://www.microsoft.com/"><img class="slike" src="../slike/microsoft.png" alt="microsoft" onmouseover="prikazi('div12')" onmouseout="sakrij('div12')"></a>
+                        </div>
+
+                        <div id="div7">
+                            <h2>Ubuntu</h2>
+                            <p>Ubuntu operativni sistem je brz, besplatan i neverovatno jednostavan za korišćenje. Pokreće milione desktop računara, laptopova i servera širom sveta.</p>
+                        </div>
+
+                        <div id="div8">
+                            <h2>Arch Linux</h2>
+                            <p>Arch Linux je veoma stabilan, jednostavan, moderan rolling-release sistem, koji omogućava one-time instalaciju sa kontinuranim poboljšanjma.</p>
+                        </div>
+
+                        <div id="div9">
+                            <h2>Citrix</h2>
+                            <p>Citrix nudi idealna rešenja koja odgovaraju na sve potrebe velikih,srednjih i malih preduzeća koja žele da usvoje virtuelizaciju da bi smanjila troškove i povećala produktivnost, unapredila kolaboraciju i bezbedno razmenjivala informacije.</p> 
+                        </div>
+
+                        <div id="div10">
+                            <h2>VMware</h2>
+                            <p>VMware radikalno transformiše IT sa tehnologijama koje čine poslovanje agilnijim, efikasnijim i profitabilnijim. VMware je pionir u virtuelizaciji koji pojednostavljuje IT komleksnost.</p>
+                        </div>
+
+                        <div id ="div11">
+                            <h2>VirtualBox</h2>
+                            <p>VirtualBox je moćan x86 i AMD64/Intel64 proizvod za virtuelizaciju kako za preduzeća tako i za kućnu upotrebu. Ne samo da je VirtualBox bogat mnoštvom funkcija, visokim performansama za poslovnu upotrebu već i jedino poslovno rešenje koje je slobodno dostupno kao open source softver.</p>
+                        </div>
+
+                        <div id="div12">
+                            <h2>Microsoft</h2>
+                            <p>Majkrosoft ima u ponudi jedan on najpopularnijih operativnih sistema Windows, kao i Windows servere. Pored OS nudi kompletan paket kancelarijskog softvera, aplikacije za razvoj, poput Visual Studi-a. Pored svega toga, Majkrosoft je razvio Azure, oblak platformu za razvoj, distribuciju softvera i servisa, kroz globalnu mrezu Majkrosoftovih datacenter-a.
+                        </div>
+                    </div>
+                </div>        
+            </body>
+        </html>

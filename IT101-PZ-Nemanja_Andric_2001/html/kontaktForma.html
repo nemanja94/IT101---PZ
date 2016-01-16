@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="../javaScript/kontaktForma.js"></script>
+        <link type="text/css" rel="stylesheet" href="../css/stil.css">
+        <style>
+            a:link {color:#ffffff;text-decoration:none;}
+            a:visited {color:#ffffff;text-decoration:none;}
+            a:hover {color: #ffffff;; text-decoration:none; background-color: rgba(228, 228, 228, .4); border: 1px solid rgba(129, 129, 129, .4); border-radius: 5px; padding: 5px;}  
+            a:active {color:#ffffff;text-decoration:none;}
+            </style>
+            <title>Kontakt forma</title>
+        </head>
+
+        <body id="body">
+
+            <div id="heder">
+                <font color="#ffffff"><h1 align="center" id="naslov">Andric LTD</h1></font>
+            </div>
+
+            <div id="div1"><h3><a href="index.html">Naslovna strana</a></h3></div>
+
+            <div id="kontaktForma">
+                <div id="hederKontaktForme"><h3>Kontaktirajte sa nama</h3></div>
+                <fieldset id="kontaktFieldset">
+                    <legend>Poruka</legend>
+
+                    <input id="ime" type="text" name="ime"  placeholder="Ime" required onkeypress="return samoSlova(event,this);"><br>
+                    <br> <input id="prezime" type="text" name="prezime" required placeholder="Prezime" onkeypress="return samoSlova(event,this);"><br>
+                    <br><input id="broj" type="text" name="broj" required placeholder="Broj" defaultValue="+" onkeypress="return samoBrojevi(event, this);"><br>
+                    
+                    <br> <input id="naslov" type="text" name="naslov" required placeholder="Naslov poruke" onkeypress="return samoSlova(event,this);"><br>
+                    <br> <textarea rows="4" cols="43" maxlength="150" required placeholder="Vaša poruka"></textarea><br><br>
+                    
+                    <fieldset id="podField">
+                        <legend>Poruku poslati kao:</legend>
+                        <select>
+                            <option value="tekst">Tekst fajl</option>
+                            <option value="HTML">HTML fajl</option>
+                        </select>
+                        <input type="button" onclick="provera" value="Pošalji">
+                    </fieldset>
+                </fieldset>
+            </div>
+        </body>
+    </html>
