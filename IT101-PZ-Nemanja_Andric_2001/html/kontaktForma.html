@@ -27,9 +27,10 @@
                 <fieldset id="kontaktFieldset">
                     <legend>Poruka</legend>
 
-                    <input id="ime" type="text" name="ime"  placeholder="Ime" required onkeypress="return samoSlova(event,this);"><br>
-                    <br> <input id="prezime" type="text" name="prezime" required placeholder="Prezime" onkeypress="return samoSlova(event,this);"><br>
-                    <br><input id="broj" type="text" name="broj" required placeholder="Broj" defaultValue="+" onkeypress="return samoBrojevi(event, this);"><br>
+                    <input id="ime" type="text" name="ime"  placeholder="Ime - Petar" required onkeypress="return samoSlova(event,this);"><br>
+                    <br> <input id="prezime" type="text" name="prezime" required placeholder="Prezime - Markovic" onkeypress="return samoSlova(event,this);"><br>
+                    <br><input id="broj" type="text" name="broj" required placeholder="Broj - +3816xxxxxxxx";><br>
+                    <input type="button" onclick="samoBrojevi()" value="Proveri broj"><br>
                     
                     <br> <input id="naslov" type="text" name="naslov" required placeholder="Naslov poruke" onkeypress="return samoSlova(event,this);"><br>
                     <br> <textarea rows="4" cols="43" maxlength="150" required placeholder="Vaša poruka"></textarea><br><br>
@@ -40,7 +41,7 @@
                             <option value="tekst">Tekst fajl</option>
                             <option value="HTML">HTML fajl</option>
                         </select>
-                        <input type="button" onclick="provera" value="Pošalji">
+                        <input type="button" onclick="provera()" value="Pošalji">
                     </fieldset>
                 </fieldset>
             </div>

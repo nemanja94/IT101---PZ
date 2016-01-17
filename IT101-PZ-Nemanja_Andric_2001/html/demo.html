@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="../css/stil.css"s>
+        <script type="text/javascript" src="../javaScript/demo.js"></script>
+        <style>
+            a:link {color:#ffffff; text-decoration: none;}
+            a:visited {color: #ffffff; text-decoration: none;}
+            a:hover {color: #ffffff;; text-decoration:none; background-color: rgba(228, 228, 228, .4); border: 1px solid rgba(129, 129, 129, .4); border-radius: 5px; padding: 5px;  
+            }
+            a:active {color:#ffffff;text-decoration:none;}
+        </style>
+        <title>Početna strana</title>
+    </head>
+
+    <body id="body">
+        <div id="heder">
+            <font color="#ffffff"><h1 align="center" id="naslov">Andric LTD</h1></font>
+        </div>
+
+        <div id="div1"><h3><a href="index.html">Naslovna strana</a></h3></div>
+
+        <div id="demo">
+            <div id="demoHeder"><h3>Kalkulator</h3></div>
+            <fieldset id="demoText">
+                <p>Kalkulator racuna ustedu na osnovu unetog broja racunara i njihove vrednosti.</p>
+                <p><b>Napomena:</b></p>
+                <p><b><i>Nasa solucija se isplati jedino ako je u pitanju veci broj radnih stanica!</i></b></p>
+            </fieldset>
+            <fieldset id="demoKalkulator">
+                <input id="brRacunara" type="text" name="brRacunara"  placeholder="Unesite broj racunara">
+                <input id="cena" type="text" name="cena"  placeholder="Unesite vrednost racunara"><br>
+                <br><input type="button" onclick="izracunaj()" value="Izracunaj"><br>
+                <br><textarea id="rezultat" rows="6" cols="40"></textarea>
+            </fieldset>
+        </div>
+    </body>
+</html>

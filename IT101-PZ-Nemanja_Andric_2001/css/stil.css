@@ -87,8 +87,8 @@
 
 #div3 {
     width: 60%;
-    height: auto;
-    padding: 2%;
+    height: 800px;
+    padding: 3%;
     margin-top: 12%;
     margin-bottom: 2%;
     margin-left: auto;
@@ -107,30 +107,58 @@
 
 #circular {
     float: left;
-    margin-top: -8%;
+    margin-top: -85px;
     margin-left: 2%;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 100px;
     background: url(../slike/nemanja.png) no-repeat;
     box-shadow: 0 0 28px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 28px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 28px rgba(0, 0, 0, .8);
 }
 
-.kontakt {
-    margin-left: 28%;
+#kontakt1 {
+    margin-left: 290px;
+    margin-top: 45px;
     width: 600px;
     font-size: 18px;
     box-shadow: 0 0 18px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+    border-radius: 20px;  
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
 }
 
+#kontakt2 {
+    margin-left: 290px;
+    margin-top: 10px;
+    width: 600px;
+    font-size: 18px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+    border-radius: 20px;  
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+#kontakt3 {
+    margin-left: 290px;
+    margin-top: 10px;
+    width: 600px;
+    height: auto;
+    font-size: 18px;
+    box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 18px rgba(0, 0, 0, .8);
+    border-radius: 20px;  
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
 #omotac {
     width: 87%;
     height: 670px;
@@ -162,11 +190,11 @@
 }
 
 #levi {
-    width: 13%;
-    height: 410px;
+    width: 200px;
+    height: 440px;
     float: left;
-    margin-top: -339px;
-    margin-left: 2%;
+    margin-top: -382px;
+    margin-left: 22px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -181,7 +209,7 @@
 }
 
 #hederLevog {
-    width: 109%;
+    width: 216px;
     height: 45px;
     padding: 1%;
     margin-left: -10px;
@@ -212,11 +240,11 @@
 }
 
 #desni {
-    width: 13%;
-    height: 410px;
+    width: 200px;
+    height: 440px;
     float: right;
-    margin-top: -339px;
-    margin-right: 2%;
+    margin-top: -380px;
+    margin-right: 22px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -231,7 +259,7 @@
 }
 
 #hederDesnog {
-    width: 109%;
+    width: 216px;
     height: 45px;
     padding: 1%;
     margin-left: -10px;
@@ -267,7 +295,7 @@
 }
 
 #hederOpis {
-    width: 101%;
+    width: 824px;
     height: 45px;
     text-align: center;
     padding: 1px;
@@ -306,7 +334,7 @@
 }
 
 #hederAktivnosti {
-    width: 101%;
+    width: 824px;
     height: 45px;
     text-align: center;
     padding: 1px;
@@ -356,7 +384,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    width: 74%;
+    width: 1175px;
     height: 390px;
     padding: 2%;
     background-color: rgba(129,129,129,.8);
@@ -464,7 +492,7 @@
 #kontaktForma {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 160px;
+    margin-top: 170px;
     width: 38%;
     height: 540px;
     color: #ffffff;
@@ -501,7 +529,7 @@
     margin-right: auto;
     margin-top: 50px;
     width: 70%;
-    height: 360px;
+    height: 380px;
     color: #ffffff;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -554,7 +582,7 @@
     padding-right: 3%;
     text-align: center;
     border-radius: 20px;
-    background-color: rgba(228, 228, 228, .5);
+    background-color: rgba(228, 228, 228, .3);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     box-shadow: 0px 0px 28px rgba(0, 0, 0, .8);
@@ -570,7 +598,7 @@
     padding-right: 3%;
     text-align: center;
     border-radius: 20px;
-    background-color: rgba(228, 228, 228, .5);
+    background-color: rgba(228, 228, 228, .3);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     box-shadow: 0px 0px 28px rgba(0, 0, 0, .8);
@@ -586,10 +614,79 @@
     padding-right: 3%;
     text-align: center;
     border-radius: 20px;
-    background-color: rgba(228, 228, 228, .5);
+    background-color: rgba(228, 228, 228, .3);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     box-shadow: 0px 0px 28px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, .8);    
+}
+
+#demo {
+    width: 34%;
+    height: 580px;
+    margin-left: auto;  
+    margin-right: auto;
+    margin-top: 220px;
+    color: #ffffff;
+    background-color: rgba(129,129,129,.8);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    box-shadow: 0 0 28px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 28px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 28px rgba(0, 0, 0, .8);
+}
+
+#demoHeder {
+    width: 98%;
+    height: 45px;
+    padding: 1%;
+    text-align: center; 
+    margin-left: auto;  
+    margin-right: auto;
+    margin-top: -65px;
+    color: #ffffff;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: rgba(228,228,228,.4);
+    box-shadow: 0 0 28px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 28px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 28px rgba(0, 0, 0, .8);
+}
+
+#demoText {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    margin-top: 50px;
+    width: 350px;
+    font-size: 17px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, .8);
+}
+
+#demoKalkulator {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    margin-top: 25px;
+    padding-top: 13px;
+    width: 360px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    box-shadow: 0px 0px 28px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0px 0px 18px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0px 0px 18px rgba(0, 0, 0, .8);
+}
+
+#cv {
+    text-align: center;
 }
